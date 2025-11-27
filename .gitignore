@@ -1,0 +1,36 @@
+# Build artifacts
+build/
+cmake-build-*/
+*.o
+*.a
+*.so
+*.dylib
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Generated logs
+logs/*.log
+logs/*.csv
+*.log
+
+# Test outputs
+Testing/
+*.gcda
+*.gcno
+*.gcov
+
+# macOS
+.DS_Store
+
+# Executables
+simple_demo
+replay
+run_tests
+bench_throughput
+bench_market_sim
+
