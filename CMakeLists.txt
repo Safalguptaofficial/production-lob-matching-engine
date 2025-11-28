@@ -85,6 +85,12 @@ target_link_libraries(simple_demo PRIVATE lob_engine)
 add_executable(replay examples/replay.cpp)
 target_link_libraries(replay PRIVATE lob_engine)
 
+add_executable(csv_replay examples/csv_replay.cpp)
+target_link_libraries(csv_replay PRIVATE lob_engine)
+
+add_executable(live_feed_example examples/live_feed_example.cpp)
+target_link_libraries(live_feed_example PRIVATE lob_engine)
+
 # Tests
 add_executable(run_tests
     tests/test_order_book_basic.cpp
